@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "moi_instagram_info.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/instagram",
+      "dest": "moi_instagram_info.py"
+    }
+  ]
+}
